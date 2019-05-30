@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import KanbanBoard from './KanbanBoard/KanbanBoard';
 
 class App extends Component {
   render() {
     return (
-      <div> fungujem 
-      </div>
+      <KanbanBoard />
     );
   }
 }
