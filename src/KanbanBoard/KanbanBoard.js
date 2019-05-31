@@ -14,13 +14,11 @@ class KanbanBoard extends Component {
                 <List 
                     id='in-progress' 
                     title="In Progress" 
-                    cards={this.props.cards.filter((card) => card.status === "in-progress")
-                } />
+                    cards={this.props.cards.filter((card) => card.status === "in-progress")} />
                 <List 
                     id='done' 
                     title='Done' 
-                    cards={this.props.cards.filter((card) => card.status === "done")
-                } />
+                    cards={this.props.cards.filter((card) => card.status === "done")} />
             </div>
         );
     }
